@@ -1,0 +1,15 @@
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.csproj.AssemblyReference.cache
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.AssemblyInfoInputs.cache
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.AssemblyInfo.cs
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.csproj.CoreCompileInputs.cache
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/bin/Debug/net6.0/task47hw
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/bin/Debug/net6.0/task47hw.deps.json
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/bin/Debug/net6.0/task47hw.runtimeconfig.json
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/bin/Debug/net6.0/task47hw.dll
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/bin/Debug/net6.0/task47hw.pdb
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.dll
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/refint/task47hw.dll
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.pdb
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/task47hw.genruntimeconfig.cache
+/Users/olegmonogarov/GeekBrains_/с#/seminar7/task47hw/obj/Debug/net6.0/ref/task47hw.dll

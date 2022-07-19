@@ -14,8 +14,10 @@ System.Console.WriteLine("Введите количество столбцов n
 int n = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine($"Вы ввели размерность массива {m}x{n}");
 Console.WriteLine($"Двумерный массив заполненный случайным образом будет выгдядеть:");
-System.Console.WriteLine($"введите число от 0 до 11 для поиска его в массиве");
-int find = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($"введите номер строки для поиска элемента в массиве начиная с 0");
+int x = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($"введите номер столбца для поиска элемента в массиве начиная с 0");
+int y = Convert.ToInt32(Console.ReadLine());
 
 int[,] arrayrandom = new int[m, n];
 Random r = new Random();
@@ -43,26 +45,50 @@ void PrintArrayToNumbers(int[,] array)
         System.Console.WriteLine();
     }
 }
-void FindNumberInArray (int[,] array)
+// void FindNumberInArray (int[,] array)
+// {
+//     int searchnumber = 0;
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//         if (array[i, j] == find)
+//         {
+//            System.Console.WriteLine($"число {find} есть в массиве");
+//            System.Console.WriteLine($"номер строки {i},номер столбца {j}");
+//         searchnumber++;
+//         }
+//         }
+//     }
+//     if (searchnumber ==0)
+//     {
+//         System.Console.WriteLine($"числа {find} в массиве нет"); 
+//     }
+// }
+
+void FindNumberInArrayOfPosition (int[,] array)
 {
     int searchnumber = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-        if (array[i, j] == find)
+        if (i==x && j==y)
         {
-           System.Console.WriteLine($"число {find} есть в массиве");
-           System.Console.WriteLine($"номер строки {i},номер столбца {j}");
-        searchnumber++;
+           System.Console.WriteLine($"число по указанным координатам найдено: {array[i,j]} ");
+           break;
         }
         }
     }
-    if (searchnumber ==0)
+    if (x>m || y>n)
     {
-        System.Console.WriteLine($"числа {find} в массиве нет"); 
+       System.Console.WriteLine($"числа по строке {x} и столбцу {y} в массиве нет");   
     }
+   
 }
+
+
 FillArrayToNumbers(arrayrandom);
 PrintArrayToNumbers(arrayrandom);
-FindNumberInArray(arrayrandom);
+//FindNumberInArray(arrayrandom);
+FindNumberInArrayOfPosition(arrayrandom);

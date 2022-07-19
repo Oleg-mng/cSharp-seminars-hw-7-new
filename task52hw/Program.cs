@@ -52,7 +52,7 @@ void SearchAverageOnColumn(int[,] array)
             sum += array[i, j];
 
         }
-        average = sum / array.GetLength(1);
+        average = sum / array.GetLength(0);
         System.Console.WriteLine($"среднее арифметическое по столбцу {j} равняется {average}");
     }
 }
